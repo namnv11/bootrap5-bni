@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BNI Vietnam - Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="masthead" class="site-header bg-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-6">
+                    <a class="navbar-brand" href="/">
+                        <img class="logo" src="images/logo.png" alt="BNI Logo" height="60">
+                    </a>
+                </div>
+                <div class="col-md-6 col-6 text-end">
+                    <div class="d-inline-block me-3">
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button class="btn btn-danger text-white bg-bni rounded-pill">ĐĂNG KÝ THAM GIA</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gray sticky-top nav-content justify-content-end" id="mainNav">
+        <button class="navbar-toggler bg-bni" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fa fa-align-justify text-white"></i>
+        </button>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="https://bni.vn/"><i
+                                class="fa fa-home cl-bni"></i></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">GIỚI THIỆU</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="/intro.html">BNI VIỆT NAM</a></li>
+                            <li><a class="dropdown-item" href="/foundation.html">BNI
+                                    Foundation</a></li>
+                            <li><a class="dropdown-item" href="/area.html">BNI Vùng</a></li>
+                            <li><a class="dropdown-item" href="/chapter.html">BNI Chapter</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">TIN TỨC</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/tin-tuc/">Tin tức</a></li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/goc-bao-chi/">Truyền thông</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/giai-thuong/">Giải thưởng</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/video/">Câu chuyện BNI</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">CÔNG CỤ</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/tin-tuc/">Tìm thành viên</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/goc-bao-chi/">SuccessNet</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/giai-thuong/">BNI Connect</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">BNI Bussiness</a></li>
+                            <li><a class="dropdown-item" href="#">Builder</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Q&A</a></li>
+                            <li><a class="dropdown-item" href="#">BNI PodCast</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Branding</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Recuritment</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Member Shop</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">LIÊN HỆ</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="#">Văn Phòng BNI VN</a></li>
+                            <li><a class="dropdown-item" href="#">Hỏi đáp</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">THANH TOÁN</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="#">Chuyển khoản</a></li>
+                            <li><a class="dropdown-item" href="#">Trực tuyến</a></li>
+                            <li><a class="dropdown-item" href="#">Ví VNPAY</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://hoingodinhcao.com/">HỘI NGỘ ĐỈNH CAO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-banner">
+        <div id="cwvn-slider">
+            <div class="header-bg">
+                <div class="container text-center">
+                    <h1 class="ldtl-page-title text-center">
+                        <h4><span style="color: #ffffff; font-size: 30px;">Tầm nhìn của chúng ta là thay đổi kinh doanh
+                                tương lai thông qua giáo dục hiện tại.</span></h4>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page" class="hfeed site">
+        <div id="content" class="site-content">
+            <div class="full-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12" id="primary">
+                            <div class="post-list">
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-hoan-kiem-va-hai-ba-trung-khanh-thanh-truong-mam-non-moi-tai-son-la-voi-370-trieu-dong-tai-tro/"
+                                                    title="BNI Hoàn Kiếm và Hai Bà Trưng: Khánh thành trường Mầm non mới tại Sơn La với 370 triệu đồng tài trợ">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/11/IMG_4647-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bni-hoan-kiem-va-hai-ba-trung-khanh-thanh-truong-mam-non-moi-tai-son-la-voi-370-trieu-dong-tai-tro/"
+                                                title="BNI Hoàn Kiếm và Hai Bà Trưng: Khánh thành trường Mầm non mới tại Sơn La với 370 triệu đồng tài trợ">
+                                                <h4 class="title">BNI Hoàn Kiếm và Hai Bà Trưng: Khánh thành trường Mầm
+                                                    non mới tại Sơn La với 370 triệu đồng tài trợ</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 12/11/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>BNI Hoàn Kiếm và Hai Bà Trưng vừa hoàn thành lễ khánh thành trường
+                                                    Mầm non Hoa Hồng tại xã Chiềng Khương, huyện Sông Mã, tỉnh Sơn La
+                                                    vào sáng ngày 9/11/2024. Đây là kết quả của sự đóng góp chung tay
+                                                    tích cực từ các Thành viên BNI Hà Nội 6, với tổng số [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bni-hoan-kiem-va-hai-ba-trung-khanh-thanh-truong-mam-non-moi-tai-son-la-voi-370-trieu-dong-tai-tro/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-dragon-khanh-thanh-truong-hoc-tai-ngoc-chien-voi-goi-tai-tro-700-trieu-dong/"
+                                                    title="BNI Dragon khánh thành trường học tại Ngọc Chiến với gói tài trợ 700 triệu đồng">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/11/280576bffd3945671c28-1-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bni-dragon-khanh-thanh-truong-hoc-tai-ngoc-chien-voi-goi-tai-tro-700-trieu-dong/"
+                                                title="BNI Dragon khánh thành trường học tại Ngọc Chiến với gói tài trợ 700 triệu đồng">
+                                                <h4 class="title">BNI Dragon khánh thành trường học tại Ngọc Chiến với
+                                                    gói tài trợ 700 triệu đồng</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 12/11/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Vào những ngày đầu tháng 11, BNI Dragon đã thực hiện một chuyến đi
+                                                    thiện nguyện đầy ý nghĩa đến xã Ngọc Chiến, huyện Mường La, tỉnh Sơn
+                                                    La mang theo những món quà tinh thần và vật chất đến với trẻ em vùng
+                                                    cao. Với sự góp sức của 134 Thành viên, Chapter đã [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bni-dragon-khanh-thanh-truong-hoc-tai-ngoc-chien-voi-goi-tai-tro-700-trieu-dong/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-long-bien-hoan-thanh-du-an-thien-nguyen-truong-dep-cho-em-tai-yen-bai/"
+                                                    title="BNI Long Biên hoàn thành dự án thiện nguyện: Trường Đẹp Cho Em tại Yên Bái">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/10/1-380x250.png"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bni-long-bien-hoan-thanh-du-an-thien-nguyen-truong-dep-cho-em-tai-yen-bai/"
+                                                title="BNI Long Biên hoàn thành dự án thiện nguyện: Trường Đẹp Cho Em tại Yên Bái">
+                                                <h4 class="title">BNI Long Biên hoàn thành dự án thiện nguyện: Trường
+                                                    Đẹp Cho Em tại Yên Bái</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 29/10/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Ngày 21/10/2024, tại điểm trường Mo Nhang, xã Trạm Tấu, Yên Bái, BNI
+                                                    Long Biên và một số cộng đồng khác đã chính thức hoàn thiện và tổ
+                                                    chức buổi lễ bàn giao cho dự án thiện nguyện mang tên “Trường Đẹp
+                                                    Cho Em.” Đây là thành quả sau gần ba tháng miệt mài thi [&hellip;]
+                                                </p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bni-long-bien-hoan-thanh-du-an-thien-nguyen-truong-dep-cho-em-tai-yen-bai/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-thanh-nghe-tinh-gop-suc-xay-nha-cho-ho-gia-dinh-kho-khan-tai-huyen-tuong-duong-tinh-nghe-an/"
+                                                    title="BNI Thanh Nghệ Tĩnh góp sức xây nhà cho hộ gia đình khó khăn tại huyện Tương Dương, tỉnh Nghệ An">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/10/TNT-trao-nhà-Tương-Dương-15.10-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bni-thanh-nghe-tinh-gop-suc-xay-nha-cho-ho-gia-dinh-kho-khan-tai-huyen-tuong-duong-tinh-nghe-an/"
+                                                title="BNI Thanh Nghệ Tĩnh góp sức xây nhà cho hộ gia đình khó khăn tại huyện Tương Dương, tỉnh Nghệ An">
+                                                <h4 class="title">BNI Thanh Nghệ Tĩnh góp sức xây nhà cho hộ gia đình
+                                                    khó khăn tại huyện Tương Dương, tỉnh Nghệ An</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 16/10/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Góc báo chí, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Sáng 15/10, Vùng BNI Thanh Nghệ Tĩnh phối hợp với Báo Nghệ An tổ chức
+                                                    trao hỗ trợ xây nhà cho hộ gia đình ông Lương Văn Chôm ở bản Piềng
+                                                    Ồ, xã Xiêng My, huyện Tương Dương, tỉnh Nghệ An. Tham dự, về phía
+                                                    chính quyền địa phương có đồng chí Lê Văn Lương [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bni-thanh-nghe-tinh-gop-suc-xay-nha-cho-ho-gia-dinh-kho-khan-tai-huyen-tuong-duong-tinh-nghe-an/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-spark-bni-avenue-bni-full-house-cung-mang-yeu-thuong-den-tre-em-vung-cao-yen-bai/"
+                                                    title="BNI Spark, BNI Avenue, BNI Full House cùng mang yêu thương đến trẻ em vùng cao Yên Bái">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/09/z5867914674743_2c13fe64e785c7d222bebaafa0faf201-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bni-spark-bni-avenue-bni-full-house-cung-mang-yeu-thuong-den-tre-em-vung-cao-yen-bai/"
+                                                title="BNI Spark, BNI Avenue, BNI Full House cùng mang yêu thương đến trẻ em vùng cao Yên Bái">
+                                                <h4 class="title">BNI Spark, BNI Avenue, BNI Full House cùng mang yêu
+                                                    thương đến trẻ em vùng cao Yên Bái</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 02/10/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Ngày 23-24/9/2024, các Chapter BNI Spark, BNI Avenue tại Thái Bình và
+                                                    BNI Full House tại Nam Định (thuộc Vùng BNI Đồng Bằng Sông Hồng),
+                                                    cùng các doanh nghiệp Thành viên đã tổ chức một chương trình thiện
+                                                    nguyện tại tỉnh Yên Bái, nhằm chia sẻ và hỗ trợ khó khăn với các em
+                                                    học [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bni-spark-bni-avenue-bni-full-house-cung-mang-yeu-thuong-den-tre-em-vung-cao-yen-bai/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-win-win-va-bni-aspire-ho-tro-453-trieu-dong-qua-va-tien-mat-den-dong-bao-yen-bai-bi-anh-huong-boi-thien-tai/"
+                                                    title="BNI Win Win và BNI Aspire hỗ trợ 453 triệu đồng quà và tiền mặt đến đồng bào Yên Bái bị ảnh hưởng bởi thiên tai">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/09/z5866279506345_872c08a104f1cd69f54fe6bd4dc90f3f-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bni-win-win-va-bni-aspire-ho-tro-453-trieu-dong-qua-va-tien-mat-den-dong-bao-yen-bai-bi-anh-huong-boi-thien-tai/"
+                                                title="BNI Win Win và BNI Aspire hỗ trợ 453 triệu đồng quà và tiền mặt đến đồng bào Yên Bái bị ảnh hưởng bởi thiên tai">
+                                                <h4 class="title">BNI Win Win và BNI Aspire hỗ trợ 453 triệu đồng quà và
+                                                    tiền mặt đến đồng bào Yên Bái bị ảnh hưởng bởi thiên tai</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 27/09/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Ngày 21,22/09/2024 vừa qua, BNI Win Win và BNI Aspire đã cùng nhau tổ
+                                                    chức một chuyến thiện nguyện ý nghĩa tại tỉnh Yên Bái sau khi bão lũ
+                                                    số 3 Yagi gây thiệt hại nặng nề. Với tinh thần sẻ chia, đoàn đã dành
+                                                    tặng tổng cộng 298 phần quà và tiền mặt cho [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bni-win-win-va-bni-aspire-ho-tro-453-trieu-dong-qua-va-tien-mat-den-dong-bao-yen-bai-bi-anh-huong-boi-thien-tai/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bon-chapter-bni-chung-tay-ung-ho-gan-200-trieu-dong-cho-tran-yen-yen-bai-bi-thiet-hai-do-bao-yagi-va-lu-quet/"
+                                                    title="Bốn Chapter BNI chung tay ủng hộ gần 200 triệu đồng cho Trấn Yên, Yên Bái bị thiệt hại do bão Yagi và lũ quét">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/09/z5858091106447_95d66db945e57e8f076113787e6fa219-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bon-chapter-bni-chung-tay-ung-ho-gan-200-trieu-dong-cho-tran-yen-yen-bai-bi-thiet-hai-do-bao-yagi-va-lu-quet/"
+                                                title="Bốn Chapter BNI chung tay ủng hộ gần 200 triệu đồng cho Trấn Yên, Yên Bái bị thiệt hại do bão Yagi và lũ quét">
+                                                <h4 class="title">Bốn Chapter BNI chung tay ủng hộ gần 200 triệu đồng
+                                                    cho Trấn Yên, Yên Bái bị thiệt hại do bão Yagi và lũ quét</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 24/09/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Ngày 22/09/2024, bốn Chapter gồm: BNI Power, BNI Inspire, BNI
+                                                    Victory, và BNI Alignment đến từ Vùng BNI Hà Nội 2 đã chung tay tổ
+                                                    chức một chương trình thiện nguyện đầy ý nghĩa nhằm hỗ trợ bà con
+                                                    huyện Trấn Yên, tỉnh Yên Bái. Đây là khu vực vừa trải qua những
+                                                    thiệt hại [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bon-chapter-bni-chung-tay-ung-ho-gan-200-trieu-dong-cho-tran-yen-yen-bai-bi-thiet-hai-do-bao-yagi-va-lu-quet/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/chu-tich-bni-viet-nam-tham-hoi-va-dong-vien-thanh-vien-bni-tai-lao-cai-sau-bao-lu/"
+                                                    title="Chủ tịch BNI Việt Nam thăm hỏi và động viên Thành viên BNI tại Lào Cai sau bão lũ">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/09/2X2A1655-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/chu-tich-bni-viet-nam-tham-hoi-va-dong-vien-thanh-vien-bni-tai-lao-cai-sau-bao-lu/"
+                                                title="Chủ tịch BNI Việt Nam thăm hỏi và động viên Thành viên BNI tại Lào Cai sau bão lũ">
+                                                <h4 class="title">Chủ tịch BNI Việt Nam thăm hỏi và động viên Thành viên
+                                                    BNI tại Lào Cai sau bão lũ</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 24/09/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Trong hai ngày 21-22/9/2024, Chủ tịch BNI Việt Nam &#8211; ông Hồ
+                                                    Quang Minh, đã đến thăm và động viên các Thành viên BNI tại Lào Cai,
+                                                    nơi vừa trải qua đợt bão lũ nghiêm trọng. Chuyến thăm này thể hiện
+                                                    sự quan tâm đặc biệt của BNI Việt Nam, đồng thời là cơ hội
+                                                    [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/chu-tich-bni-viet-nam-tham-hoi-va-dong-vien-thanh-vien-bni-tai-lao-cai-sau-bao-lu/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-a1-lan-toa-yeu-thuong-hanh-trinh-thien-nguyen-den-huyen-luc-yen-tinh-yen-bai-sau-bao-lu/"
+                                                    title="BNI A1 lan tỏa yêu thương: Hành trình thiện nguyện đến huyện Lục Yên, tỉnh Yên Bái sau bão lũ">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/09/c9920644c7576109384620-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/bni-a1-lan-toa-yeu-thuong-hanh-trinh-thien-nguyen-den-huyen-luc-yen-tinh-yen-bai-sau-bao-lu/"
+                                                title="BNI A1 lan tỏa yêu thương: Hành trình thiện nguyện đến huyện Lục Yên, tỉnh Yên Bái sau bão lũ">
+                                                <h4 class="title">BNI A1 lan tỏa yêu thương: Hành trình thiện nguyện đến
+                                                    huyện Lục Yên, tỉnh Yên Bái sau bão lũ</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 20/09/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Vào ngày 16/9/2024, BNI A1 đã có chuyến thiện nguyện đầy ý nghĩa đến
+                                                    huyện Lục Yên, tỉnh Yên Bái, thể hiện tinh thần tương thân tương ái
+                                                    và đóng góp tích cực của cộng đồng doanh nhân. Đây là một hoạt động
+                                                    từ thiện mang tính nhân văn cao cả, nhằm hỗ trợ và [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/bni-a1-lan-toa-yeu-thuong-hanh-trinh-thien-nguyen-den-huyen-luc-yen-tinh-yen-bai-sau-bao-lu/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-4 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/trung-thu-cho-em-2024-chuong-trinh-thien-nguyen-cua-bni-mtn-tai-quang-nam/"
+                                                    title="&#8220;Trung Thu Cho Em 2024&#8221; &#8211; Chương trình thiện nguyện của BNI MTN tại Quảng Nam">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2024/09/4fd4801ac572632c3a6354-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-8 mb30">
+                                            <a href="https://bni.vn/trung-thu-cho-em-2024-chuong-trinh-thien-nguyen-cua-bni-mtn-tai-quang-nam/"
+                                                title="&#8220;Trung Thu Cho Em 2024&#8221; &#8211; Chương trình thiện nguyện của BNI MTN tại Quảng Nam">
+                                                <h4 class="title">&#8220;Trung Thu Cho Em 2024&#8221; &#8211; Chương
+                                                    trình thiện nguyện của BNI MTN tại Quảng Nam</h4>
+                                            </a>
+                                            <div class="meta mb10">
+                                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> 17/09/2024</span>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-list-alt"
+                                                    aria-hidden="true"></i> Tin tức, BNI FOUNDATION
+                                            </div>
+                                            <div class="excerpt mb15">
+                                                <p>Trung Thu – thời điểm mà mỗi chúng ta đều hồi tưởng về những kỷ niệm
+                                                    tuổi thơ với ánh trăng rực rỡ, những chiếc đèn lồng đầy màu sắc và
+                                                    những đêm hội rước đèn cùng bạn bè. Tuy nhiên, không phải trẻ em nào
+                                                    cũng có cơ hội đón một Trung Thu trọn [&hellip;]</p>
+                                            </div>
+                                            <div class="readmore"><a class="button transparent-primary"
+                                                    href="https://bni.vn/trung-thu-cho-em-2024-chuong-trinh-thien-nguyen-cua-bni-mtn-tai-quang-nam/">View
+                                                    more</a></div>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+                            </div>
+                            <div class='wp-pagenavi' role='navigation'>
+                                <span class='pages'>1/8</span><span aria-current='page' class='current'>1</span><a
+                                    class="page larger" title="Page 2"
+                                    href="https://bni.vn/chuyen-muc/bni-foundation/page/2/">2</a><a class="page larger"
+                                    title="Page 3" href="https://bni.vn/chuyen-muc/bni-foundation/page/3/">3</a><a
+                                    class="page larger" title="Page 4"
+                                    href="https://bni.vn/chuyen-muc/bni-foundation/page/4/">4</a><a class="page larger"
+                                    title="Page 5" href="https://bni.vn/chuyen-muc/bni-foundation/page/5/">5</a><span
+                                    class='extend'>...</span><a class="nextpostslink" rel="next"
+                                    href="https://bni.vn/chuyen-muc/bni-foundation/page/2/">→</a><a class="last"
+                                    href="https://bni.vn/chuyen-muc/bni-foundation/page/8/">»</a>
+                            </div>
+                        </div>
+                        <div id="secondary" class="widget-area col-sm-12 col-md-4" role="complementary">
+                            <aside class="widget post-list">
+                                <h2 class="ldtl-title">Tin mới nhất</h2>
+
+                                <div class="post-item post-sidebar-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-12 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-thanh-nghe-tinh-hon-158-ty-dong-giao-dich-trong-tuan-le-ket-noi-toan-cau/"
+                                                    title="BNI Thanh Nghệ Tĩnh: Hơn 15,8 tỷ đồng giao dịch trong tuần lễ kết nối toàn cầu!">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2025/02/Nghệ-An-INW-380x250.png"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 mb30">
+                                            <a href="https://bni.vn/bni-thanh-nghe-tinh-hon-158-ty-dong-giao-dich-trong-tuan-le-ket-noi-toan-cau/"
+                                                title="BNI Thanh Nghệ Tĩnh: Hơn 15,8 tỷ đồng giao dịch trong tuần lễ kết nối toàn cầu!">
+                                                <h4 class="title">BNI Thanh Nghệ Tĩnh: Hơn 15,8 tỷ đồng giao dịch trong
+                                                    tuần lễ kết nối toàn cầu!</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item post-sidebar-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-12 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-binh-duong-tuan-le-ket-noi-toan-cau-tao-ra-gan-300-co-hoi-kinh-doanh-va-27-ty-dong-doanh-so/"
+                                                    title="BNI Bình Dương: Tuần lễ kết nối toàn cầu tạo ra gần 300 cơ hội kinh doanh và 2,7 tỷ đồng doanh số">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2025/02/Bình-Dương-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 mb30">
+                                            <a href="https://bni.vn/bni-binh-duong-tuan-le-ket-noi-toan-cau-tao-ra-gan-300-co-hoi-kinh-doanh-va-27-ty-dong-doanh-so/"
+                                                title="BNI Bình Dương: Tuần lễ kết nối toàn cầu tạo ra gần 300 cơ hội kinh doanh và 2,7 tỷ đồng doanh số">
+                                                <h4 class="title">BNI Bình Dương: Tuần lễ kết nối toàn cầu tạo ra gần
+                                                    300 cơ hội kinh doanh và 2,7 tỷ đồng doanh số</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item post-sidebar-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-12 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/tuan-le-ket-noi-toan-cau-khu-vuc-bni-hcm-central-400-doanh-nhan-hop-tac-10-ty-doanh-thu-duoc-tao-ra/"
+                                                    title="Tuần lễ kết nối toàn cầu khu vực BNI HCM Central: 400+ Doanh nhân hợp tác, 10 tỷ doanh thu được tạo ra">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2025/02/02LOKS-BNI-63-380x250.jpg"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 mb30">
+                                            <a href="https://bni.vn/tuan-le-ket-noi-toan-cau-khu-vuc-bni-hcm-central-400-doanh-nhan-hop-tac-10-ty-doanh-thu-duoc-tao-ra/"
+                                                title="Tuần lễ kết nối toàn cầu khu vực BNI HCM Central: 400+ Doanh nhân hợp tác, 10 tỷ doanh thu được tạo ra">
+                                                <h4 class="title">Tuần lễ kết nối toàn cầu khu vực BNI HCM Central: 400+
+                                                    Doanh nhân hợp tác, 10 tỷ doanh thu được tạo ra</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+
+                                <div class="post-item post-sidebar-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-sm-12 mb30">
+                                            <div class="thumb">
+                                                <a href="https://bni.vn/bni-trung-quoc-viet-nam-hon-120-doanh-nhan-ket-noi-khong-bien-gioi/"
+                                                    title="BNI Trung Quốc &#038; Việt Nam: Hơn 120 doanh nhân kết nối không biên giới">
+                                                    <img width="380" height="250"
+                                                        src="https://bni.vn/wp-content/uploads/2025/02/Banner-SK-380x250.png"
+                                                        class="attachment-380x250 size-380x250 wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 mb30">
+                                            <a href="https://bni.vn/bni-trung-quoc-viet-nam-hon-120-doanh-nhan-ket-noi-khong-bien-gioi/"
+                                                title="BNI Trung Quốc &#038; Việt Nam: Hơn 120 doanh nhân kết nối không biên giới">
+                                                <h4 class="title">BNI Trung Quốc &#038; Việt Nam: Hơn 120 doanh nhân kết
+                                                    nối không biên giới</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div><!-- #post-## -->
+                            </aside>
+                            <aside class="widget">
+                                <h2 class="ldtl-title">Menu chính</h2>
+                                <div class="widget-content nav-menu">
+                                    <div class="main-menu-container">
+                                        <ul class="menu">
+                                            <li class="menu-item">
+                                                <a title="Trang chủ" href="https://bni.vn/"><i class="fas fa-angle-right pd-r-10"></i><i class="fa fa-home"
+                                                        aria-hidden="true"></i></a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#"><i class="fas fa-angle-right pd-r-10"></i>Giới Thiệu</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://bni.vn/chuyen-muc/tin-tuc/"><i class="fas fa-angle-right pd-r-10"></i>Tin tức</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#"><i class="fas fa-angle-right pd-r-10"></i>Công cụ</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#"><i class="fas fa-angle-right pd-r-10"></i>Liên hệ</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#"><i class="fas fa-angle-right pd-r-10"></i>Thanh toán</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://hoingodinhcao.com/"><i class="fas fa-angle-right pd-r-10"></i>Hội Ngộ Đỉnh Cao</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div><!-- #secondary -->
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- #content -->
+        <section class="ldtl-section primary-bg register-cta-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-sm-12 title mb30">
+                        Đăng ký tham gia </div>
+                    <div class="col-md-5 col-sm-12 mb30 content">
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-right mb30">
+                        <select class="register-select-area">
+                            <option value="">Select area</option>
+                            <optgroup label="BNI Đồng Bằng Sông Hồng">
+                                <option value="https://bni.vn/vung/ha-nam/#chapterList">Hà Nam</option>
+                                <option value="https://bni.vn/vung/nam-dinh/#chapterList">Nam Định</option>
+                                <option value="https://bni.vn/vung/thai-binh/#chapterList">Thái Bình</option>
+                            </optgroup>
+                            <optgroup label="BNI Millionaire Business Network (BNI MBN)">
+                                <option value="https://bni.vn/vung/bac-giang/#chapterList">Bắc Giang</option>
+                                <option value="https://bni.vn/vung/bac-ninh/#chapterList">Bắc Ninh</option>
+                                <option value="https://bni.vn/vung/bni-online-3/#chapterList">BNI Online</option>
+                                <option value="https://bni.vn/vung/mien-bac/#chapterList">Hà Nội</option>
+                                <option value="https://bni.vn/vung/lao-cai/#chapterList">Lào Cai</option>
+                            </optgroup>
+                            <optgroup label="BNI Business Trust Network (BNI BTN)">
+                                <option value="https://bni.vn/vung/binh-duong/#chapterList">Bình Dương</option>
+                                <option value="https://bni.vn/vung/binh-phuoc/#chapterList">Bình Phước</option>
+                                <option value="https://bni.vn/vung/bni-online/#chapterList">BNI Online</option>
+                                <option value="https://bni.vn/vung/daklak/#chapterList">Đắk Lắk</option>
+                                <option value="https://bni.vn/vung/dong-thap/#chapterList">Đồng Tháp</option>
+                                <option value="https://bni.vn/vung/gia-lai/#chapterList">Gia Lai</option>
+                                <option value="https://bni.vn/vung/hung-yen/#chapterList">Hưng Yên</option>
+                                <option value="https://bni.vn/vung/khanh-hoa/#chapterList">Khánh Hòa</option>
+                                <option value="https://bni.vn/vung/lam-dong/#chapterList">Lâm Đồng</option>
+                                <option value="https://bni.vn/vung/quy-nhon/#chapterList">Quy Nhơn</option>
+                            </optgroup>
+                            <optgroup label="BNI Bà Rịa - Bình Thuận - Đồng Nai (BNI BBD)">
+                                <option value="https://bni.vn/vung/ba-ria-binh-thuan-dong-nai/#chapterList">Bà Rịa
+                                    &#8211; Vũng Tàu</option>
+                                <option value="https://bni.vn/vung/bni-binh-thuan/#chapterList">Bình Thuận</option>
+                                <option value="https://bni.vn/vung/bni-online-2/#chapterList">BNI Online</option>
+                                <option value="https://bni.vn/vung/bni-vung-tau/#chapterList">Đồng Nai</option>
+                            </optgroup>
+                            <optgroup label="BNI Miền Trung (BNI MTN)">
+                                <option value="https://bni.vn/vung/da-nang/#chapterList">Đà Nẵng</option>
+                                <option value="https://bni.vn/vung/hue/#chapterList">Huế</option>
+                                <option value="https://bni.vn/vung/quang-nam/#chapterList">Quảng Nam</option>
+                                <option value="https://bni.vn/vung/quang-ngai/#chapterList">Quảng Ngãi</option>
+                            </optgroup>
+                            <optgroup label="BNI Thanh Hoá – Nghệ An – Hà Tĩnh (BNI TNT)">
+                                <option value="https://bni.vn/vung/ha-tinh/#chapterList">Hà Tĩnh</option>
+                                <option value="https://bni.vn/vung/bni-nghe-an/#chapterList">Nghệ An</option>
+                                <option value="https://bni.vn/vung/thanh-hoa/#chapterList">Thanh Hoá</option>
+                            </optgroup>
+                            <optgroup label="BNI Tây Nam Bộ (BNI TNB)">
+                                <option value="https://bni.vn/vung/can-tho/#chapterList">Cần Thơ</option>
+                                <option value="https://bni.vn/vung/kien-giang/#chapterList">Kiên Giang</option>
+                                <option value="https://bni.vn/vung/soc-trang/#chapterList">Sóc Trăng</option>
+                                <option value="https://bni.vn/vung/vinh-long/#chapterList">Vĩnh Long</option>
+                            </optgroup>
+                            <optgroup label="BNI Hải Phòng – Quảng Ninh – Hải Dương (BNI HQH)">
+                                <option value="https://bni.vn/vung/bni-hai-duong/#chapterList">Hải Dương</option>
+                                <option value="https://bni.vn/vung/hai-phong/#chapterList">Hải Phòng</option>
+                                <option value="https://bni.vn/vung/bni-quang-ninh/#chapterList">Quảng Ninh</option>
+                            </optgroup>
+                            <optgroup label="BNI Hà Nội">
+                                <option value="https://bni.vn/vung/ha-noi-2/#chapterList">Hà Nội 2</option>
+                                <option value="https://bni.vn/vung/ha-noi-3/#chapterList">Hà Nội 3</option>
+                                <option value="https://bni.vn/vung/ha-noi-6/#chapterList">Hà Nội 6</option>
+                            </optgroup>
+                            <optgroup label="BNI Hồ Chí Minh">
+                                <option value="https://bni.vn/vung/hcm-east/#chapterList">HCM EAST</option>
+                                <option value="https://bni.vn/vung/hcm-north/#chapterList">HCM NORTH</option>
+                                <option value="https://bni.vn/vung/hcm-south/#chapterList">HCM SOUTH</option>
+                                <option value="https://bni.vn/vung/hcm-west/#chapterList">HCM WEST</option>
+                                <option value="https://bni.vn/vung/ho-chi-minh/#chapterList">Hồ Chí Minh</option>
+                                <option value="https://bni.vn/vung/ho-chi-minh-6/#chapterList">Hồ Chí Minh 6</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="bottom" class="site-bottom">
+            <div class="footer-area">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="mb15">
+                                    © 2020 BNI Vietnam. All Rights Reserved </div>
+                                <div class="mb15">
+                                    <p style="color:#ffffff ! important; font-size:14px ! important; ">
+                                        <strong>Địa chỉ trụ sở chính:</strong> Tầng 7, Khu B [7-1-2], Tòa nhà Kocham, Lô
+                                        A17B, Đường NT8, Phường Hòa Phú, Thành Phố Thủ Dầu Một, Tỉnh Bình Dương, Việt
+                                        Nam. <br>
+                                        <br><strong>Địa chỉ liên lạc:</strong> Số 87-89 Đường Hồ Bá Kiện, Phường 15,
+                                        Quận 10, Thành phố Hồ Chí Minh, Việt Nam <br>
+                                        <strong>Hotline:</strong> 028 7107 7979 - Nhấn phím 1<br>
+                                        <strong>Email:</strong> helpdeskvn@bni.com
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="mb15 text-center menu-footer">
+                                    <div class="menu-menu-chan-trang-container">
+                                        <ul id="menu-menu-chan-trang" class="menu">
+                                            <li id="menu-item-29536"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29536">
+                                                <a href="http://bni.vn/quy-trinh-hoan-tat-goi-thanh-vien/">QUY TRÌNH
+                                                    ĐĂNG KÝ THÀNH VIÊN VÀ HƯỚNG DẪN THANH TOÁN</a>
+                                            </li>
+                                            <li id="menu-item-129"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129">
+                                                <a href="https://bni.vn/chinh-sach-bao-mat/">Chính sách bảo mật thông
+                                                    tin</a>
+                                            </li>
+                                            <li id="menu-item-128"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128">
+                                                <a href="https://bni.vn/chinh-sach-thanh-toan/">Chính sách bảo mật thanh
+                                                    toán</a>
+                                            </li>
+                                            <li id="menu-item-29994"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29994">
+                                                <a href="https://bni.vn/danh-sach-nha-cung-cap-dich-vu/">Danh sách nhà
+                                                    cung cấp dịch vụ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- #modify content for checking -->
+                                <div class="mb15 text-center">
+                                    <p
+                                        style="color:#ffffff ! important; margin-bottom: 0px; font-size: 17px ! important;">
+                                        CÔNG TY TNHH BUSINESS CONNECTIONS</p>
+                                    <p style="color:#ffffff ! important; font-size:14px ! important; "> Số GCNDKDN:
+                                        3703166854 do Sở Kế hoạch và Đầu tư tỉnh Bình Dương cấp ngày 02/11/2023</p>
+                                    <!-- <a href="http://online.gov.vn/Home/WebDetails/70659"> <img alt='' title='' style="width: 45%;height:90px;" src="http://bni.vn/wp-content/uploads/2020/10/BoCongThuong.png"/></a> -->
+                                    <!-- Monitored by VSEC -->
+                                    <div id="seal-id"><a href="https://ex.vadar.vsec.vn/seal/CCA160721C4200C90982"
+                                            rel="noopener">Website monitoring</a></div>
+
+                                    <!-- Thiet Ke Website boi An Nhien -->
+                                    <a href="https://www.annhienco.com.vn/">
+                                        <p
+                                            style="color:#ffffff ! important; margin-bottom: 0px; font-size: 17px ! important;margin-top:20px;">
+                                            Được thiết kế website bởi annhienco.com.vn </p>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="mb15 text-right">
+                                    <div class="social">
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-google-plus-g"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-youtube"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!-- end #bottom -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>

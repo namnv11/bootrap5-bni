@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BNI Vietnam - Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="masthead" class="site-header bg-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-6">
+                    <a class="navbar-brand" href="/">
+                        <img class="logo" src="images/logo.png" alt="BNI Logo" height="60">
+                    </a>
+                </div>
+                <div class="col-md-6 col-6 text-end">
+                    <div class="d-inline-block me-3">
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-secondary mr-5"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button class="btn btn-danger text-white bg-bni rounded-pill">ĐĂNG KÝ THAM GIA</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gray sticky-top nav-content justify-content-end" id="mainNav">
+        <button class="navbar-toggler bg-bni" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fa fa-align-justify text-white"></i>
+        </button>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="https://bni.vn/"><i
+                                class="fa fa-home cl-bni"></i></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">GIỚI THIỆU</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="/intro.html">BNI VIỆT NAM</a></li>
+                            <li><a class="dropdown-item" href="/foundation.html">BNI
+                                    Foundation</a></li>
+                            <li><a class="dropdown-item" href="/area.html">BNI Vùng</a></li>
+                            <li><a class="dropdown-item" href="/chapter.html">BNI Chapter</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">TIN TỨC</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/tin-tuc/">Tin tức</a></li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/goc-bao-chi/">Truyền thông</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/giai-thuong/">Giải thưởng</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/video/">Câu chuyện BNI</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">CÔNG CỤ</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/tin-tuc/">Tìm thành viên</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/goc-bao-chi/">SuccessNet</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://bni.vn/chuyen-muc/giai-thuong/">BNI Connect</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">BNI Bussiness</a></li>
+                            <li><a class="dropdown-item" href="#">Builder</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Q&A</a></li>
+                            <li><a class="dropdown-item" href="#">BNI PodCast</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Branding</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Recuritment</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Member Shop</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">LIÊN HỆ</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="#">Văn Phòng BNI VN</a></li>
+                            <li><a class="dropdown-item" href="#">Hỏi đáp</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">THANH TOÁN</a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item" href="#">Chuyển khoản</a></li>
+                            <li><a class="dropdown-item" href="#">Trực tuyến</a></li>
+                            <li><a class="dropdown-item" href="#">Ví VNPAY</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://hoingodinhcao.com/">HỘI NGỘ ĐỈNH CAO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-banner">
+        <div id="cwvn-slider">
+            <div class="header-bg">
+                <div class="container text-center">
+                    <h1 class="ldtl-page-title text-center">
+                        <p><strong><span style="font-family: arial, helvetica, sans-serif; color: #ffffff;">BNI VIỆT NAM
+                                    đã hỗ trợ gần 9.358 doanh nhân, doanh nghiệp thành viên</span></strong></p>
+                        <p><strong><span style="font-family: arial, helvetica, sans-serif; color: #ffffff;">thực hành kỹ
+                                    năng networking (kết nối kinh doanh)</span></strong></p>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page" class="hfeed site">
+        <div id="content" class="site-content">
+            <div class="full-container">
+                <section class="ldtl-section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-sm-12">
+                                <h2 class="ldtl-title"> </h2>
+                                <p>
+                                    BNI là tổ chức kết nối thương mại lớn nhất và thành công nhất trên thế giới. BNI
+                                    được Tiến sĩ Ivan Misner sáng lập vào năm 1985. Hiện nay, BNI đã có 11.200 Chapter
+                                    với hơn 335.000 Thành viên tại hơn 76 quốc gia trên toàn cầu. Từ năm 1985 đến nay,
+                                    các Thành viên BNI trên toàn cầu đã trao nhau hàng chục triệu cơ hội kinh doanh.
+                                    Tính đến thời điểm hiện tại, trong vòng 12 tháng Thành viên BNI Toàn cầu đã trao
+                                    nhau 16.8&nbsp;triệu cơ hội kinh doanh (referrals) với tổng trị giá 25.3&nbsp;tỷ
+                                    USD.</p>
+                                <h2 style="font-family: Roboto, sans-serif;">BNI VIỆT NAM</h2>
+                                <p dir="ltr"
+                                    style="line-height: 2.057142857142857; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 10pt 0pt;">
+                                    BNI được ông Michael Hồ Quang Minh &#8211; Chủ tịch BNI Việt Nam biết đến và
+                                    xúc tiến triển khai tại Việt Nam từ tháng 9 năm 2009, đến tháng 8 năm 2010
+                                    BNI Việt Nam chính thức ra mắt hai Chapter đầu tiên tại Hà Nội và TP.HCM. Cách làm
+                                    kinh doanh của doanh nhân Việt Nam là dựa trên mối quan hệ thân tín và có uy tín.
+                                    Điều này hoàn toàn phù hợp với tiêu chí hoạt động của BNI. Tuy nhiên, cách thức kinh
+                                    doanh của người Việt chúng ta còn ở mức tự phát và chưa có hệ thống. Vì vậy, BNI sẽ
+                                    giúp hệ thống hóa và thay đổi cách kinh doanh của họ. Tính hệ thống cũng là một nét
+                                    đặc biệt tạo nên sự thành công và khác biệt cho BNI. Tham gia vào BNI bạn sẽ được
+                                    huấn luyện phương pháp và sử dụng hệ thống toàn cầu nhằm tạo ra nhiều cơ hội kinh
+                                    doanh hơn để tăng doanh thu và lợi nhuận. Những yếu tố này là động lực cho những
+                                    người sáng lập BNI Việt Nam cũng như Thành viên BNI Việt Nam đang hoạt động tích cực
+                                    để mang đến cho doanh nhân Việt Nam một cách thức mới để phát triển kinh doanh.</p>
+                                <p dir="ltr"
+                                    style="line-height: 2.057142857142857; background-color: #ffffff; margin-top: 0pt; margin-bottom: 10pt;">
+                                    Hiện tại, BNI Việt Nam đã có 9.293 Thành viên với 241 Chapter tại các Vùng và tỉnh
+                                    thành lớn trên cả nước như Hồ Chí Minh, Hà Nội, Hải Phòng, Quảng Ninh, Hải Dương, Đà
+                                    Nẵng, Nghệ An, Thanh Hóa, Hà Tĩnh, Khánh Hòa, Lâm Đồng, Bà Rịa – Vũng Tàu, Đồng Nai,
+                                    Lào Cai, Đắk Lắk, Bình Dương, Cần Thơ, Hưng Yên, Bình Phước, Bắc Ninh, Bắc Giang,
+                                    Kiên Giang, Bình Định, Quảng Nam, Quảng Ngãi, Thái Bình, Gia Lai, Nam Định, Hà Nam,
+                                    Huế…. Trong 12 tháng qua, Thành viên BNI Việt Nam đã trao nhau 469.701 cơ hội kinh
+                                    doanh với tổng giá trị các thương vụ lên đến hơn 14.924 tỷ đồng.</p>
+                                <p><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor --><!-- Created with Elementor -->
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="featured-number-list">
+                                    <div class="mb30 hideonmobile">&nbsp;</div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="featured-number-item text-center mb60">
+                                                <div class="number d-flex justify-content-center">
+                                                    <div class="number" data-toggle="counter-up">
+                                                        241 </div>
+                                                </div>
+                                                <hr />
+                                                <div class="title">
+                                                    Chapter </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="featured-number-item text-center mb60">
+                                                <div class="number d-flex justify-content-center">
+                                                    <div class="number" data-toggle="counter-up">
+                                                        9,293 </div>
+                                                </div>
+                                                <hr />
+                                                <div class="title">
+                                                    Thành viên </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="featured-number-item text-center mb60">
+                                                <div class="number d-flex justify-content-center">
+                                                    <div class="number" data-toggle="counter-up">
+                                                        469,701 </div>
+                                                </div>
+                                                <hr />
+                                                <div class="title">
+                                                    Cơ hội kinh doanh </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="featured-number-item text-center mb60">
+                                                <div class="number d-flex justify-content-center">
+                                                    <div class="number" data-toggle="counter-up">
+                                                        14,924 </div>
+                                                    <span class="ml-2">Tỷ</span>
+                                                </div>
+                                                <hr />
+                                                <div class="title">
+                                                    Giá trị kinh doanh </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="featured-number-item text-center mb60">
+                                                <div class="number d-flex justify-content-center">
+                                                    <div class="number" data-toggle="counter-up">
+                                                        2 </div>
+                                                    <span class="ml-2">Tỷ</span>
+                                                </div>
+                                                <hr />
+                                                <div class="title">
+                                                    Doanh Thu Bình Quân Thành Viên từ BNI </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="no-gutters row align-items-center home-why-us-section gray">
+                    <div class="col-md-6 col-sm-12 bg mycbg hideonmobile"
+                        style="background-image:url('https://bni.vn/wp-content/uploads/2020/02/giatricotloiBNI.jpg');">
+                        <section class="ldtl-section content" style="visibility: hidden;">
+                            <h2 class="ldtl-title"><b>Tầm nhìn, Sứ mệnh, Triết lý và 7 Giá trị cốt lõi của BNI </b></h2>
+                            <div class="mb30">
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">BNI®
+                                        được xây dựng dựa trên bộ quy tắc hướng dẫn tạo nên một nền tảng ở đó các thành
+                                        viên tương tác, ứng xử với nhau và thực hiện được mục tiêu của mình. Ở BNI®,
+                                        Chúng tôi <strong>thay đổi cách thức Thế giới làm Kinh doanh</strong>.</span>
+                                </p>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>TẦM
+                                            NHÌN CỦA BNI®</strong></span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #000000;">Thay đổi cách Thế giới làm kinh
+                                                doanh®</span></strong></span></p>
+                                <ul>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Giúp
+                                            Thành viên nhận thức rằng Networking là gieo trồng không săn bắt và phải vun
+                                            đắp các mối quan hệ.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Gắn
+                                            liền thương hiệu BNI® với marketing truyền miệng. Khi nói về marketing
+                                            truyền miệng người ta sẽ nghĩ tới BNI®.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Trở
+                                            thành tổ chức kết nối kinh doanh tốt nhất, lớn nhất và được thừa nhận rộng
+                                            khắp trên toàn cầu.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Lãnh
+                                            đạo sáng tạo, đề xuất phương hướng và hỗ trợ cho các Giám đốc, Ban điều hành
+                                            và Thành viên của từng Chapter.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Đào
+                                            tạo, hướng dẫn và thông tin tốt hơn cho Thành viên về quy trình triển khai
+                                            kinh doanh áp dụng hình thức marketing truyền miệng.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Liên
+                                            tục tiếp nhận và trả lời phản hồi từ Thành viên.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Gia
+                                            tăng số lượng Thành viên trên toàn Thế giới.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Đánh
+                                            giá thành tựu đạt được bằng những phương pháp đo lường truyền thống và cải
+                                            tiến.</span></li>
+                                </ul>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>TUYÊN
+                                            BỐ SỨ MỆNH</strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Sứ
+                                        mệnh của BNI® là giúp các Thành viên gia tăng cơ hội kinh doanh thông qua chương
+                                        trình trao đổi cơ hội kinh doanh (referral) một cách có cấu trúc, tích cực và
+                                        chuyên nghiệp, để giúp các Thành viên phát triển những mối quan hệ lâu dài và có
+                                        ý nghĩa, với những ngành nghề kinh doanh chất lượng.</span></p>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>TRIẾT
+                                            LÝ</strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Thành
+                                        công tại BNI® nghĩa là trở thành một Thành viên tích cực và hỗ trợ của tổ chức,
+                                        dựa trên sự tương trợ lẫn nhau. Điều này đòi hỏi sự cam kết chung với các Thành
+                                        viên khác theo triết lý &#8220;<strong>Cho là nhận</strong>®&#8221;: Bằng việc
+                                        cho đi cơ hội kinh doanh, bạn cũng sẽ nhận lại cơ hội kinh doanh cho
+                                        mình.</span></p>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>7
+                                            GÍA TRỊ CỐT LÕI CỦA BNI®</strong></span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">01</span> <span style="color: #000000;">Cho là
+                                                Nhận®</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Cho
+                                        Là Nhận là triết lý cơ bản của BNI. Chúng tôi minh chứng cho điều đó bằng việc
+                                        trao cơ hội kinh doanh cho người khác, đổi lại bạn cũng sẽ nhận được cơ hội kinh
+                                        doanh.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">02</span> <span style="color: #000000;">Học tập
+                                                suốt đời</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Chúng
+                                        tôi tin vào sự hoàn thiện liên tục những kỹ năng phát triển bản thân và kỹ năng
+                                        chuyên môn. BNI cung cấp các cơ hội đa dạng để hỗ trợ học tập suốt đời.</span>
+                                </p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">03</span> <span style="color: #000000;">Truyền
+                                                thống và đổi mới</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Truyền
+                                        thống trong một tổ chức cho chúng ta biết nguồn gốc chúng ta phát triển từ đâu
+                                        và đặt nền móng. Chúng ta là ai, tuy nhiên chúng ta vẫn luôn phải tìm cách đổi
+                                        mới sáng tạo.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">04</span> <span style="color: #000000;">Thái độ
+                                                tích cực</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">BNI
+                                        cung cấp một môi trường cho phép bạn bao quanh mình những người luôn muốn giúp
+                                        bạn thành công.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">05</span> <span style="color: #000000;">Xây dựng
+                                                các mối quan hệ</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Kết
+                                        nối kinh doanh là nuôi trồng các kết nối với những con người mới thay vì đi săn
+                                        các mối quan hệ đó. Mọi người luôn muốn làm kinh doanh với những người mà họ
+                                        biết và tin tưởng. Đó chính là việc nuôi dưỡng các mối quan hệ đó.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">06</span> <span style="color: #000000;">Tinh
+                                                thần trách nhiệm</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Nếu
+                                        bạn muốn có được một hệ thống kết nối cá nhân có quyền năng, bạn phải có tính
+                                        trách nhiệm. Nếu không, hệ thống đó trở thành một nhóm hoạt động xã hội.</span>
+                                </p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">07</span> <span style="color: #000000;">Sự công
+                                                nhận</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Sự
+                                        ghi nhận đóng góp của mọi người là rất quan trọng.</span></p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <section class="ldtl-section content">
+                            <h2 class="ldtl-title"><b>Tầm nhìn, Sứ mệnh, Triết lý và 7 Giá trị cốt lõi của BNI </b></h2>
+                            <div class="mb30">
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">BNI®
+                                        được xây dựng dựa trên bộ quy tắc hướng dẫn tạo nên một nền tảng ở đó các thành
+                                        viên tương tác, ứng xử với nhau và thực hiện được mục tiêu của mình. Ở BNI®,
+                                        Chúng tôi <strong>thay đổi cách thức Thế giới làm Kinh doanh</strong>.</span>
+                                </p>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>TẦM
+                                            NHÌN CỦA BNI®</strong></span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #000000;">Thay đổi cách Thế giới làm kinh
+                                                doanh®</span></strong></span></p>
+                                <ul>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Giúp
+                                            Thành viên nhận thức rằng Networking là gieo trồng không săn bắt và phải vun
+                                            đắp các mối quan hệ.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Gắn
+                                            liền thương hiệu BNI® với marketing truyền miệng. Khi nói về marketing
+                                            truyền miệng người ta sẽ nghĩ tới BNI®.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Trở
+                                            thành tổ chức kết nối kinh doanh tốt nhất, lớn nhất và được thừa nhận rộng
+                                            khắp trên toàn cầu.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Lãnh
+                                            đạo sáng tạo, đề xuất phương hướng và hỗ trợ cho các Giám đốc, Ban điều hành
+                                            và Thành viên của từng Chapter.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Đào
+                                            tạo, hướng dẫn và thông tin tốt hơn cho Thành viên về quy trình triển khai
+                                            kinh doanh áp dụng hình thức marketing truyền miệng.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Liên
+                                            tục tiếp nhận và trả lời phản hồi từ Thành viên.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Gia
+                                            tăng số lượng Thành viên trên toàn Thế giới.</span></li>
+                                    <li><span
+                                            style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Đánh
+                                            giá thành tựu đạt được bằng những phương pháp đo lường truyền thống và cải
+                                            tiến.</span></li>
+                                </ul>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>TUYÊN
+                                            BỐ SỨ MỆNH</strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Sứ
+                                        mệnh của BNI® là giúp các Thành viên gia tăng cơ hội kinh doanh thông qua chương
+                                        trình trao đổi cơ hội kinh doanh (referral) một cách có cấu trúc, tích cực và
+                                        chuyên nghiệp, để giúp các Thành viên phát triển những mối quan hệ lâu dài và có
+                                        ý nghĩa, với những ngành nghề kinh doanh chất lượng.</span></p>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>TRIẾT
+                                            LÝ</strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Thành
+                                        công tại BNI® nghĩa là trở thành một Thành viên tích cực và hỗ trợ của tổ chức,
+                                        dựa trên sự tương trợ lẫn nhau. Điều này đòi hỏi sự cam kết chung với các Thành
+                                        viên khác theo triết lý &#8220;<strong>Cho là nhận</strong>®&#8221;: Bằng việc
+                                        cho đi cơ hội kinh doanh, bạn cũng sẽ nhận lại cơ hội kinh doanh cho
+                                        mình.</span></p>
+                                <p><span
+                                        style="color: #cf2030; font-size: 18pt; font-family: arial, helvetica, sans-serif;"><strong>7
+                                            GÍA TRỊ CỐT LÕI CỦA BNI®</strong></span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">01</span> <span style="color: #000000;">Cho là
+                                                Nhận®</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Cho
+                                        Là Nhận là triết lý cơ bản của BNI. Chúng tôi minh chứng cho điều đó bằng việc
+                                        trao cơ hội kinh doanh cho người khác, đổi lại bạn cũng sẽ nhận được cơ hội kinh
+                                        doanh.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">02</span> <span style="color: #000000;">Học tập
+                                                suốt đời</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Chúng
+                                        tôi tin vào sự hoàn thiện liên tục những kỹ năng phát triển bản thân và kỹ năng
+                                        chuyên môn. BNI cung cấp các cơ hội đa dạng để hỗ trợ học tập suốt đời.</span>
+                                </p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">03</span> <span style="color: #000000;">Truyền
+                                                thống và đổi mới</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Truyền
+                                        thống trong một tổ chức cho chúng ta biết nguồn gốc chúng ta phát triển từ đâu
+                                        và đặt nền móng. Chúng ta là ai, tuy nhiên chúng ta vẫn luôn phải tìm cách đổi
+                                        mới sáng tạo.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">04</span> <span style="color: #000000;">Thái độ
+                                                tích cực</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">BNI
+                                        cung cấp một môi trường cho phép bạn bao quanh mình những người luôn muốn giúp
+                                        bạn thành công.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">05</span> <span style="color: #000000;">Xây dựng
+                                                các mối quan hệ</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Kết
+                                        nối kinh doanh là nuôi trồng các kết nối với những con người mới thay vì đi săn
+                                        các mối quan hệ đó. Mọi người luôn muốn làm kinh doanh với những người mà họ
+                                        biết và tin tưởng. Đó chính là việc nuôi dưỡng các mối quan hệ đó.</span></p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">06</span> <span style="color: #000000;">Tinh
+                                                thần trách nhiệm</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Nếu
+                                        bạn muốn có được một hệ thống kết nối cá nhân có quyền năng, bạn phải có tính
+                                        trách nhiệm. Nếu không, hệ thống đó trở thành một nhóm hoạt động xã hội.</span>
+                                </p>
+                                <p><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;"><strong><span
+                                                style="color: #cf2030;">07</span> <span style="color: #000000;">Sự công
+                                                nhận</span></strong></span></p>
+                                <p><span
+                                        style="color: #000000; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Sự
+                                        ghi nhận đóng góp của mọi người là rất quan trọng.</span></p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <section class="ldtl-section primary-bg register-cta-section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 col-sm-12 title mb30">
+                                Đăng ký tham gia </div>
+                            <div class="col-md-5 col-sm-12 mb30 content">
+                            </div>
+                            <div class="col-md-3 col-sm-12 text-right mb30">
+                                <select class="register-select-area">
+                                    <option value="">Select area</option>
+                                    <optgroup label="BNI Đồng Bằng Sông Hồng">
+                                        <option value="https://bni.vn/vung/ha-nam/#chapterList">Hà Nam</option>
+                                        <option value="https://bni.vn/vung/nam-dinh/#chapterList">Nam Định</option>
+                                        <option value="https://bni.vn/vung/thai-binh/#chapterList">Thái Bình</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Millionaire Business Network (BNI MBN)">
+                                        <option value="https://bni.vn/vung/bac-giang/#chapterList">Bắc Giang</option>
+                                        <option value="https://bni.vn/vung/bac-ninh/#chapterList">Bắc Ninh</option>
+                                        <option value="https://bni.vn/vung/bni-online-3/#chapterList">BNI Online
+                                        </option>
+                                        <option value="https://bni.vn/vung/mien-bac/#chapterList">Hà Nội</option>
+                                        <option value="https://bni.vn/vung/lao-cai/#chapterList">Lào Cai</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Business Trust Network (BNI BTN)">
+                                        <option value="https://bni.vn/vung/binh-duong/#chapterList">Bình Dương</option>
+                                        <option value="https://bni.vn/vung/binh-phuoc/#chapterList">Bình Phước</option>
+                                        <option value="https://bni.vn/vung/bni-online/#chapterList">BNI Online</option>
+                                        <option value="https://bni.vn/vung/daklak/#chapterList">Đắk Lắk</option>
+                                        <option value="https://bni.vn/vung/dong-thap/#chapterList">Đồng Tháp</option>
+                                        <option value="https://bni.vn/vung/gia-lai/#chapterList">Gia Lai</option>
+                                        <option value="https://bni.vn/vung/hung-yen/#chapterList">Hưng Yên</option>
+                                        <option value="https://bni.vn/vung/khanh-hoa/#chapterList">Khánh Hòa</option>
+                                        <option value="https://bni.vn/vung/lam-dong/#chapterList">Lâm Đồng</option>
+                                        <option value="https://bni.vn/vung/quy-nhon/#chapterList">Quy Nhơn</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Bà Rịa - Bình Thuận - Đồng Nai (BNI BBD)">
+                                        <option value="https://bni.vn/vung/ba-ria-binh-thuan-dong-nai/#chapterList">Bà
+                                            Rịa &#8211; Vũng Tàu</option>
+                                        <option value="https://bni.vn/vung/bni-binh-thuan/#chapterList">Bình Thuận
+                                        </option>
+                                        <option value="https://bni.vn/vung/bni-online-2/#chapterList">BNI Online
+                                        </option>
+                                        <option value="https://bni.vn/vung/bni-vung-tau/#chapterList">Đồng Nai</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Miền Trung (BNI MTN)">
+                                        <option value="https://bni.vn/vung/da-nang/#chapterList">Đà Nẵng</option>
+                                        <option value="https://bni.vn/vung/hue/#chapterList">Huế</option>
+                                        <option value="https://bni.vn/vung/quang-nam/#chapterList">Quảng Nam</option>
+                                        <option value="https://bni.vn/vung/quang-ngai/#chapterList">Quảng Ngãi</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Thanh Hoá – Nghệ An – Hà Tĩnh (BNI TNT)">
+                                        <option value="https://bni.vn/vung/ha-tinh/#chapterList">Hà Tĩnh</option>
+                                        <option value="https://bni.vn/vung/bni-nghe-an/#chapterList">Nghệ An</option>
+                                        <option value="https://bni.vn/vung/thanh-hoa/#chapterList">Thanh Hoá</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Tây Nam Bộ (BNI TNB)">
+                                        <option value="https://bni.vn/vung/can-tho/#chapterList">Cần Thơ</option>
+                                        <option value="https://bni.vn/vung/kien-giang/#chapterList">Kiên Giang</option>
+                                        <option value="https://bni.vn/vung/soc-trang/#chapterList">Sóc Trăng</option>
+                                        <option value="https://bni.vn/vung/vinh-long/#chapterList">Vĩnh Long</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Hải Phòng – Quảng Ninh – Hải Dương (BNI HQH)">
+                                        <option value="https://bni.vn/vung/bni-hai-duong/#chapterList">Hải Dương
+                                        </option>
+                                        <option value="https://bni.vn/vung/hai-phong/#chapterList">Hải Phòng</option>
+                                        <option value="https://bni.vn/vung/bni-quang-ninh/#chapterList">Quảng Ninh
+                                        </option>
+                                    </optgroup>
+                                    <optgroup label="BNI Hà Nội">
+                                        <option value="https://bni.vn/vung/ha-noi-2/#chapterList">Hà Nội 2</option>
+                                        <option value="https://bni.vn/vung/ha-noi-3/#chapterList">Hà Nội 3</option>
+                                        <option value="https://bni.vn/vung/ha-noi-6/#chapterList">Hà Nội 6</option>
+                                    </optgroup>
+                                    <optgroup label="BNI Hồ Chí Minh">
+                                        <option value="https://bni.vn/vung/hcm-east/#chapterList">HCM EAST</option>
+                                        <option value="https://bni.vn/vung/hcm-north/#chapterList">HCM NORTH</option>
+                                        <option value="https://bni.vn/vung/hcm-south/#chapterList">HCM SOUTH</option>
+                                        <option value="https://bni.vn/vung/hcm-west/#chapterList">HCM WEST</option>
+                                        <option value="https://bni.vn/vung/ho-chi-minh/#chapterList">Hồ Chí Minh
+                                        </option>
+                                        <option value="https://bni.vn/vung/ho-chi-minh-6/#chapterList">Hồ Chí Minh 6
+                                        </option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="leadership-section gray">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 col-sm-12 title-col">
+                                <h2 class="ldtl-title white">Ban lãnh đạo <b>BNI Vietnam</b></h2>
+                            </div>
+                            <div class="col-md-8 col-sm-12 content-col">
+                                <div class="mb30 content">
+                                    <p><span style="font-family: arial, helvetica, sans-serif;">Đội ngũ lãnh đạo của
+                                            chúng tôi sống theo triết lý Givers Gain® và đam mê tạo ra một nền văn hóa
+                                            nổi bật nhằm thúc đẩy sự hợp tác và gắn kết.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leaders-list row justify-content-center no-gutters gray">
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img src="https://bni.vn/wp-content/uploads/2019/11/Ho-Quang-Minh_1.jpg" />
+                            </div>
+                            <div class="position">Chủ tịch BNI Việt Nam</div>
+                            <div class="title">Hồ Quang Minh</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img
+                                    src="https://bni.vn/wp-content/uploads/2023/08/Hồ-Thụy-Hồng-Phúc-1-e1728891884985.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Quốc gia BNI Việt Nam</div>
+                            <div class="title">Hồ Thụy Hồng Phúc</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img src="https://bni.vn/wp-content/uploads/2019/11/Nguyen-Kien-Tri.jpg" />
+                            </div>
+                            <div class="position">Phó Chủ tịch BNI Việt Nam</div>
+                            <div class="title">Nguyễn Kiên Trì</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img
+                                    src="https://bni.vn/wp-content/uploads/2021/08/ED-Le-Truong-Son-1-e1636703494765.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Điều hành BNI Việt Nam</div>
+                            <div class="title">Lê Trường Sơn</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img src="https://bni.vn/wp-content/uploads/2020/01/Lisa-e1636703858496.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Đào tạo BNI Việt Nam</div>
+                            <div class="title">Lê Thị Lương Yên</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img src="https://bni.vn/wp-content/uploads/2024/04/Julie-e1712629426651.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Phát triển BNI Việt Nam</div>
+                            <div class="title">Đinh Thị Như Phượng</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img
+                                    src="https://bni.vn/wp-content/uploads/2023/08/Phạm-Thành-Long-e1691743203733.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Vùng BNI Hà Nội 6</div>
+                            <div class="title">Phạm Thành Long</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img src="https://bni.vn/wp-content/uploads/2023/02/Anh-Hang-5-e1728891775370.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Vùng BNI HCM West</div>
+                            <div class="title">Ánh Hằng</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img
+                                    src="https://bni.vn/wp-content/uploads/2021/08/ED-Le-Truong-Son-1-e1636703494765.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Vùng BNI BTN - BNI MBN - BNI MTN</div>
+                            <div class="title">Lê Trường Sơn</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img src="https://bni.vn/wp-content/uploads/2019/11/Dinh-Van-Tao.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Vùng BNI TNT</div>
+                            <div class="title">Đinh Văn Tạo</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img src="https://bni.vn/wp-content/uploads/2023/08/Hà-Ngọc-Hưng.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Vùng BNI HQH</div>
+                            <div class="title">Hà Ngọc Hưng</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="leader-item text-center mb30">
+                            <div class="thumb mb15">
+                                <img
+                                    src="https://bni.vn/wp-content/uploads/2023/09/Simon-Bui-Cao-Son-e1728891802255.jpg" />
+                            </div>
+                            <div class="position">Giám đốc Vùng BNI Hà Nội 3 & BNI Đồng Bằng Sông Hồng</div>
+                            <div class="title">Bùi Cao Sơn</div>
+                        </div>
+                    </div>
+                </div>
+                <section class="ldtl-section">
+                    <div class="container">
+                        <h2 class="ldtl-title text-center"><b>Giải thưởng & Vinh danh</b> BNI Việt Nam</h2>
+                        <div class="prize-item">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="thumb mb30">
+                                        <a href="https://bni.vn/level-up/" title="Level Up! Hành trình tới thành công">
+                                            <img width="2004" height="1125"
+                                                src="https://bni.vn/wp-content/uploads/2023/11/level-up-2.jpg"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt=""
+                                                srcset="https://bni.vn/wp-content/uploads/2023/11/level-up-2.jpg 2004w, https://bni.vn/wp-content/uploads/2023/11/level-up-2-768x431.jpg 768w"
+                                                sizes="(max-width: 2004px) 100vw, 2004px" /> </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="info mb30 text-center">
+                                        <a href="https://bni.vn/level-up/" title="Level Up! Hành trình tới thành công">
+                                            <h4 class="title">Level Up! Hành trình tới thành công</h4>
+                                        </a>
+                                        <div class="excerpt">
+                                            <p>Sẵn sàng cho Chiến dịch Marketing Quý 4 của BNI Toàn cầu: Level Up! Hành
+                                                trình tới Thành công. Ý tưởng chiến dịch được thiết kế dưới dạng trò
+                                                chơi nhằm thúc đẩy sự đóng góp tích cực của các Giám đốc và Thành viên
+                                                vào sự phát triển của Chapter, tạo ra sự thúc đẩy và sự [&hellip;]</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div><!-- #content -->
+        <section class="ldtl-section primary-bg register-cta-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-sm-12 title mb30">
+                        Đăng ký tham gia </div>
+                    <div class="col-md-5 col-sm-12 mb30 content">
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-right mb30">
+                        <select class="register-select-area">
+                            <option value="">Select area</option>
+                            <optgroup label="BNI Đồng Bằng Sông Hồng">
+                                <option value="https://bni.vn/vung/ha-nam/#chapterList">Hà Nam</option>
+                                <option value="https://bni.vn/vung/nam-dinh/#chapterList">Nam Định</option>
+                                <option value="https://bni.vn/vung/thai-binh/#chapterList">Thái Bình</option>
+                            </optgroup>
+                            <optgroup label="BNI Millionaire Business Network (BNI MBN)">
+                                <option value="https://bni.vn/vung/bac-giang/#chapterList">Bắc Giang</option>
+                                <option value="https://bni.vn/vung/bac-ninh/#chapterList">Bắc Ninh</option>
+                                <option value="https://bni.vn/vung/bni-online-3/#chapterList">BNI Online</option>
+                                <option value="https://bni.vn/vung/mien-bac/#chapterList">Hà Nội</option>
+                                <option value="https://bni.vn/vung/lao-cai/#chapterList">Lào Cai</option>
+                            </optgroup>
+                            <optgroup label="BNI Business Trust Network (BNI BTN)">
+                                <option value="https://bni.vn/vung/binh-duong/#chapterList">Bình Dương</option>
+                                <option value="https://bni.vn/vung/binh-phuoc/#chapterList">Bình Phước</option>
+                                <option value="https://bni.vn/vung/bni-online/#chapterList">BNI Online</option>
+                                <option value="https://bni.vn/vung/daklak/#chapterList">Đắk Lắk</option>
+                                <option value="https://bni.vn/vung/dong-thap/#chapterList">Đồng Tháp</option>
+                                <option value="https://bni.vn/vung/gia-lai/#chapterList">Gia Lai</option>
+                                <option value="https://bni.vn/vung/hung-yen/#chapterList">Hưng Yên</option>
+                                <option value="https://bni.vn/vung/khanh-hoa/#chapterList">Khánh Hòa</option>
+                                <option value="https://bni.vn/vung/lam-dong/#chapterList">Lâm Đồng</option>
+                                <option value="https://bni.vn/vung/quy-nhon/#chapterList">Quy Nhơn</option>
+                            </optgroup>
+                            <optgroup label="BNI Bà Rịa - Bình Thuận - Đồng Nai (BNI BBD)">
+                                <option value="https://bni.vn/vung/ba-ria-binh-thuan-dong-nai/#chapterList">Bà Rịa
+                                    &#8211; Vũng Tàu</option>
+                                <option value="https://bni.vn/vung/bni-binh-thuan/#chapterList">Bình Thuận</option>
+                                <option value="https://bni.vn/vung/bni-online-2/#chapterList">BNI Online</option>
+                                <option value="https://bni.vn/vung/bni-vung-tau/#chapterList">Đồng Nai</option>
+                            </optgroup>
+                            <optgroup label="BNI Miền Trung (BNI MTN)">
+                                <option value="https://bni.vn/vung/da-nang/#chapterList">Đà Nẵng</option>
+                                <option value="https://bni.vn/vung/hue/#chapterList">Huế</option>
+                                <option value="https://bni.vn/vung/quang-nam/#chapterList">Quảng Nam</option>
+                                <option value="https://bni.vn/vung/quang-ngai/#chapterList">Quảng Ngãi</option>
+                            </optgroup>
+                            <optgroup label="BNI Thanh Hoá – Nghệ An – Hà Tĩnh (BNI TNT)">
+                                <option value="https://bni.vn/vung/ha-tinh/#chapterList">Hà Tĩnh</option>
+                                <option value="https://bni.vn/vung/bni-nghe-an/#chapterList">Nghệ An</option>
+                                <option value="https://bni.vn/vung/thanh-hoa/#chapterList">Thanh Hoá</option>
+                            </optgroup>
+                            <optgroup label="BNI Tây Nam Bộ (BNI TNB)">
+                                <option value="https://bni.vn/vung/can-tho/#chapterList">Cần Thơ</option>
+                                <option value="https://bni.vn/vung/kien-giang/#chapterList">Kiên Giang</option>
+                                <option value="https://bni.vn/vung/soc-trang/#chapterList">Sóc Trăng</option>
+                                <option value="https://bni.vn/vung/vinh-long/#chapterList">Vĩnh Long</option>
+                            </optgroup>
+                            <optgroup label="BNI Hải Phòng – Quảng Ninh – Hải Dương (BNI HQH)">
+                                <option value="https://bni.vn/vung/bni-hai-duong/#chapterList">Hải Dương</option>
+                                <option value="https://bni.vn/vung/hai-phong/#chapterList">Hải Phòng</option>
+                                <option value="https://bni.vn/vung/bni-quang-ninh/#chapterList">Quảng Ninh</option>
+                            </optgroup>
+                            <optgroup label="BNI Hà Nội">
+                                <option value="https://bni.vn/vung/ha-noi-2/#chapterList">Hà Nội 2</option>
+                                <option value="https://bni.vn/vung/ha-noi-3/#chapterList">Hà Nội 3</option>
+                                <option value="https://bni.vn/vung/ha-noi-6/#chapterList">Hà Nội 6</option>
+                            </optgroup>
+                            <optgroup label="BNI Hồ Chí Minh">
+                                <option value="https://bni.vn/vung/hcm-east/#chapterList">HCM EAST</option>
+                                <option value="https://bni.vn/vung/hcm-north/#chapterList">HCM NORTH</option>
+                                <option value="https://bni.vn/vung/hcm-south/#chapterList">HCM SOUTH</option>
+                                <option value="https://bni.vn/vung/hcm-west/#chapterList">HCM WEST</option>
+                                <option value="https://bni.vn/vung/ho-chi-minh/#chapterList">Hồ Chí Minh</option>
+                                <option value="https://bni.vn/vung/ho-chi-minh-6/#chapterList">Hồ Chí Minh 6</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="bottom" class="site-bottom">
+            <div class="footer-area">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="mb15">
+                                    © 2020 BNI Vietnam. All Rights Reserved </div>
+                                <div class="mb15">
+                                    <p style="color:#ffffff ! important; font-size:14px ! important; ">
+                                        <strong>Địa chỉ trụ sở chính:</strong> Tầng 7, Khu B [7-1-2], Tòa nhà Kocham, Lô
+                                        A17B, Đường NT8, Phường Hòa Phú, Thành Phố Thủ Dầu Một, Tỉnh Bình Dương, Việt
+                                        Nam. <br>
+                                        <br><strong>Địa chỉ liên lạc:</strong> Số 87-89 Đường Hồ Bá Kiện, Phường 15,
+                                        Quận 10, Thành phố Hồ Chí Minh, Việt Nam <br>
+                                        <strong>Hotline:</strong> 028 7107 7979 - Nhấn phím 1<br>
+                                        <strong>Email:</strong> helpdeskvn@bni.com
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="mb15 text-center menu-footer">
+                                    <div class="menu-menu-chan-trang-container">
+                                        <ul id="menu-menu-chan-trang" class="menu">
+                                            <li id="menu-item-29536"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29536">
+                                                <a href="http://bni.vn/quy-trinh-hoan-tat-goi-thanh-vien/">QUY TRÌNH
+                                                    ĐĂNG KÝ THÀNH VIÊN VÀ HƯỚNG DẪN THANH TOÁN</a>
+                                            </li>
+                                            <li id="menu-item-129"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129">
+                                                <a href="https://bni.vn/chinh-sach-bao-mat/">Chính sách bảo mật thông
+                                                    tin</a>
+                                            </li>
+                                            <li id="menu-item-128"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128">
+                                                <a href="https://bni.vn/chinh-sach-thanh-toan/">Chính sách bảo mật thanh
+                                                    toán</a>
+                                            </li>
+                                            <li id="menu-item-29994"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29994">
+                                                <a href="https://bni.vn/danh-sach-nha-cung-cap-dich-vu/">Danh sách nhà
+                                                    cung cấp dịch vụ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- #modify content for checking -->
+                                <div class="mb15 text-center">
+                                    <p
+                                        style="color:#ffffff ! important; margin-bottom: 0px; font-size: 17px ! important;">
+                                        CÔNG TY TNHH BUSINESS CONNECTIONS</p>
+                                    <p style="color:#ffffff ! important; font-size:14px ! important; "> Số GCNDKDN:
+                                        3703166854 do Sở Kế hoạch và Đầu tư tỉnh Bình Dương cấp ngày 02/11/2023</p>
+                                    <!-- <a href="http://online.gov.vn/Home/WebDetails/70659"> <img alt='' title='' style="width: 45%;height:90px;" src="http://bni.vn/wp-content/uploads/2020/10/BoCongThuong.png"/></a> -->
+                                    <!-- Monitored by VSEC -->
+                                    <div id="seal-id"><a href="https://ex.vadar.vsec.vn/seal/CCA160721C4200C90982"
+                                            rel="noopener">Website monitoring</a></div>
+
+                                    <!-- Thiet Ke Website boi An Nhien -->
+                                    <a href="https://www.annhienco.com.vn/">
+                                        <p
+                                            style="color:#ffffff ! important; margin-bottom: 0px; font-size: 17px ! important;margin-top:20px;">
+                                            Được thiết kế website bởi annhienco.com.vn </p>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="mb15 text-right">
+                                    <div class="social">
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-google-plus-g"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-youtube"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="text-secondary mr-5"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!-- end #bottom -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
